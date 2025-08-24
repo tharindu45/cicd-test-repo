@@ -68,5 +68,10 @@ public class CourseController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
+    @GetMapping("/webhook")
+    public String greetingWebhokConfigure() {
+        return "Hello Techie , AWS CICD Example working fine !";
+    }
+
 
 }
