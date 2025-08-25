@@ -78,5 +78,10 @@ public class CourseController {
         return "Hello Techie , AWS CD working fine !";
     }
 
+    @GetMapping("/test2")
+    public String greetingWebhokConfigure2() {
+        return "Hello Techie , AWS CD working fine test 2!";
+    }
+
 
 }
