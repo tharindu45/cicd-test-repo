@@ -73,5 +73,10 @@ public class CourseController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
+    @GetMapping("/checkcdflow")
+    public String greetingWebhokConfigure() {
+        return "Hello Techie , AWS CD working fine !";
+    }
+
 
 }
