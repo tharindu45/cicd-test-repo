@@ -74,7 +74,7 @@ public class CourseController {
     }
 
     @GetMapping("/checkcdflow")
-    public String greetingWebhokConfigure() {
+    public String greetingWebhokConfigure1() {
         return "Hello Techie , AWS CD working fine !";
     }
 
